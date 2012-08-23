@@ -21,9 +21,9 @@ import cdl.android.model.Qotd;
 import cdl.android.model.UserInfo;
 
 public class ApiRequests {
-	private String userInfoAPICallURL = "http://wouso-next.rosedu.org/api/info/?user=";
-	private String bazaarAPICallURL = "http://wouso-next.rosedu.org/api/bazaar/?user=";
-	private String qotdAPICallURL = "http://wouso-next.rosedu.org/api/qotd/today/?user=";
+	private String userInfoAPICallURL = "http://192.168.1.2:8000/api/info/?user=";
+	private String bazaarAPICallURL = "http://192.168.1.2:8000/api/bazaar/?user=";
+	private String qotdAPICallURL = "http://192.168.1.2:8000/api/qotd/today/?user=";
 
 	/**
 	 * Generic data request
